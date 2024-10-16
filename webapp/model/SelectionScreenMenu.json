@@ -4,7 +4,7 @@
     "Countries":[
         {
             "key": "Germany",
-            "text": "Alemania"
+            "text": "Germany"
         },
         {
             "key": "UK",
@@ -16,11 +16,11 @@
         },
         {
             "key": "Sweden",
-            "text": "Suiza"
+            "text": "Sweden"
         },
         {
             "key": "Brazil",
-            "text": "Brasil"
+            "text": "Brazil"
         }
     ],
     "Currency": "USD"
