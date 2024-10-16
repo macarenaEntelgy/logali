@@ -3,7 +3,11 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-            <Text id="text" text="Hola Mundo!"></Text>
+            <Panel id="panel" headerText="{i18n>pantallaDeSeleccion}">
+                <Label id="labelShipName" labelFor="shipName" text="{i18n>nombre}" class="sapUiSmallMargin"/>
+                <Input id="shipName" width="200px" class="sapUiSmallMarginEnd"/>
+                <Label id="labelCountry" text="{i18n>pais}" class="sapUiSmallMargin"/>
+            </Panel>
         </content>
     </Page>
 </mvc:View>
