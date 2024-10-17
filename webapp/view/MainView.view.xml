@@ -36,7 +36,10 @@
                         <ObjectListItem id="objListItem" title="{ShipName} - {Country}"
                                         number="{ parts : [ {path: 'ExtendedPrice'},
                                                             {path: 'selectionScreen>/Currency'}],
-                                                  type: 'sap.ui.model.type.Currency'}"
+                                                  type: 'sap.ui.model.type.Currency',
+                                                  formatOptions: {
+                                                    showMeasure : false
+                                                }}"
                                         numberUnit="{selectionScreen>/Currency}">
                         </ObjectListItem>
                       </items>
