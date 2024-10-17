@@ -24,7 +24,10 @@
       "env": {
         "DEBUG": "--inspect",
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
-        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}"
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/project1\"}",
+        "FIORI_TOOLS_UI5_VERSION": "1.124.1",
+        "FIORI_TOOLS_UI5_URI": "https://ui5.sap.com",
+        "FIORI_TOOLS_BACKEND_CONFIG": "[{\"path\":\"/V2\",\"url\":\"https://northwind.dest\",\"destination\":\"Northwind\"}]"
       }
     },
     {
