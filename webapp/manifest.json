@@ -7,6 +7,14 @@
     "applicationVersion": {
       "version": "0.0.1"
     },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.15.1",
+      "toolsId": "d6920631-a99f-431f-b4fe-85defe064abf"
+    },
     "dataSources": {
       "mainService": {
         "uri": "/V2/Northwind/Northwind.svc/",
@@ -17,14 +25,6 @@
           "odataVersion": "2.0"
         }
       }
-    },
-    "title": "{{appTitle}}",
-    "description": "{{appDescription}}",
-    "resources": "resources.json",
-    "sourceTemplate": {
-      "id": "@sap/generator-fiori:basic",
-      "version": "1.15.1",
-      "toolsId": "d6920631-a99f-431f-b4fe-85defe064abf"
     }
   },
   "sap.ui": {
